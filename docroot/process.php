@@ -1,4 +1,5 @@
 <?php
+ini_set("sendmail_from", "do-not-reply@davexoxide.com");
 //Retrieve form data.
 //GET - user submitted data using AJAX
 //POST - in case user does not support javascript, we'll use POST instead
