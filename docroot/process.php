@@ -19,7 +19,7 @@ if (!$comment) $errors[count($errors)] = 'Please enter your comment.';
 if (!$errors) {
 
 	//recipient
-	$to = 'DRIPQUIP <david@dripquip.com>';
+	$to = 'David <david@dripquip.com>, Chad <chad@dripquip.com>';
 	//sender
 	$from = $name . ' <' . $email . '>';
 
